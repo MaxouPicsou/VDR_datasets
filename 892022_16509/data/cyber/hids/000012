@@ -1,0 +1,10 @@
+tcp6 :::22 :::* 390/sshd
+udp 0.0.0.0:68 0.0.0.0:* 370/dhcpcd
+tcp 127.0.0.1:631 0.0.0.0:* 4861/cupsd
+tcp6 ::1:631 :::* 4861/cupsd
+udp 0.0.0.0:631 0.0.0.0:* 4864/cups-browsed
+udp 0.0.0.0:5353 0.0.0.0:* 324/avahi-daemon
+udp6 :::5353 :::* 324/avahi-daemon
+udp6 :::46490 :::* 324/avahi-daemon
+udp 0.0.0.0:56338 0.0.0.0:* 324/avahi-daemon
+
